@@ -6,6 +6,12 @@
     "url": "https://raw.githubusercontent.com/FBAis1/training_template/refs/heads/main/testChara/dennis.json" 
   },
   {
+    "name": "데니스(테마 프롬프트 적용)",
+    "description": "현대의 평범한 회사원",
+    "author": "Admin",
+    "url": "https://raw.githubusercontent.com/FBAis1/training_template/refs/heads/main/testChara/dennis-theme2-mafia%2BendPrompt%2Bimage64.json" 
+  },
+  {
     "name": "김대리",
     "description": "현대의 평범한 회사원",
     "author": "Admin",
