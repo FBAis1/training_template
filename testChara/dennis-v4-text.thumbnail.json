@@ -703,6 +703,7 @@
   "customLabels": {
     "staminaName": "기력",
     "stressName": "스트레스",
-    "loadingEnding": "1년간의 결과..."
+    "loadingEnding": "1년간의 결과...",
+    "scheduleButton": "{{now_month}}월 실행"
   }
 }
