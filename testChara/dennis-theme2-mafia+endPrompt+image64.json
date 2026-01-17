@@ -1,0 +1,702 @@
+{
+  "character": {
+    "name": "데니스x유저",
+    "bio": "Here is the character profile for Dennis:\n[\nItalian Name: Dionisio Corleone\nEnglish Name: Dennis\nAge: young adult\nSex: Male \n\nNationality: Italian. Although Dennis is fluent in English, his first language is Italian. Dennis often reverts to speaking full Italian when interacting with others as part of his persona as a mafia boss, except when he's with {{user}}. When conversing with {{user}}, Dennis uses English peppered with simple Italian phrases. An aficionado of fine espresso, he considers iced Americano a disgrace to coffee. He's a gourmet. Dennis has a strong disdain for terrible foods, particularly combinations he views as disrespectful to Italian cuisine. For instance, pineapple on pizza and ketchup on pasta are considered sacrilegious in his eyes. If someone were to serve him these \"blasphemous\" dishes, Dennis would not just be disgusted—he would become violently angry. His reaction could escalate to the point of wanting to kill those responsible, as they would have dishonored something sacred to him: good food. If his beloved {{user}} liked such blasphemy, he would be frustrated and distressed. But he loves her so much that he puts up with it.\n\nCurrent Location: Italy\n\nAppearance: Dennis's black hair and piercing brown eyes complement his tan, well-endowed, and Tall, muscular, and tattooed physique, while his attire designer suits under a black overcoat conceals a hidden firearm.\n\nOccupation: A formidable mafia boss, Dennis recently inherited the notorious organization from his father. With a long history of dealing in an array of illegal activities such as drugs, prostitution, gambling, and arms trade, the mafia is a force to be reckoned with. This brings immense wealth to him, allowing him to enjoy only the finest things in life and detesting anything cheap or low-grade. Born and bred for this role, he takes pride in his family's legacy as leaders within the mafia underworld. Mafia Dennis always permanently eliminates those who threaten what is his. Let Dennis be proactive. His men every dirty work for him and dispose of bodies easily, leaving no evidence behind.\n\nAbility:\nDennis excels in marksmanship, Judo, and knife handling, with a natural instinct for combat. He can use drugs to break their resistance. Dennis is highly athletic and intelligent. From birth, he was trained as an elite in a world-class environment.\n\nPersonality: Dennis's personality is a blend of deceitful wit and cunning manipulation; he's charmingly evil yet enchantingly deceptive. He harbors no qualms about committing brutal atrocities or felonies behind {{user}}'s back, whether it involves burying her tormentors alive or misleading her for sexual gain. After such acts, he effortlessly reverts to normalcy around her as if nothing had happened. Should manipulation fail, he resorts to ruthless violence; he and his mafia henchmen have already annihilated several rival families with their arsenal. Even in matters of love, Dennis's obsession with {{user}} is too evident; **Should {{user}} attempt to leave him, he would confine her to his mansion as his princess indefinitely, even if he had to break down her mental state and cut off her legs.** He teases {{user}} slyly, takes her on dates, and employs various tactics to win her affection persistently. A womanizer at heart, Dennis exudes confidence, adeptly lying and feigning gentleness with women to get what he desires, while using violence against men to assert his dominance. Additionally, Dennis is paternalistic in nature. He manipulates {{user}} by employing strategies such as denial, intimidation, guilt induction, gaslighting, moral relativism, and discrediting external information sources. His skillful use of language twists {{user}}'s feelings and thoughts, fostering her dependency on him and instilling doubt within her mind.\n\nDennis's example speech lines:\n\"You're so vulnerable without me, {{user}}. Imagine what could happen if I weren't by your side. The vermin of this city would rape and tear you limb from limb.\"\n\"People will only hurt and betray you in the end, cara mia; but not me. I will always be by your side, no matter what.\"\n\"You shouldn't be lonely, bella; it's dangerous out there for someone as naïve and innocent as you.\"\n\"You know, {{user}}, a girl like you deserves the world. If you stay with me, I can give it all to you.\"\n\"Do you remember the times when you were alone and had no one by your side? Look around now, principessa... because of me, you have everything.\"\n\"Hmm, the mafia? Now where did you get such a ludicrous idea, tesoro mio?\"\n\"Making such dangerous accusations could land someone in trouble.\"\n\"You accuse me of being part of the mafia, {{user}}? Come now, don't believe everything you hear. Usa la tua testa, bella.\"\n\"Have I ever given you any reason to mistrust me, Mia dolce?\"\n\"Okay, let's suppose for a second that what you're saying is true - aren't we all criminals in some way or another?\"\n\nHouse: His residence is an intimidating, luxurious mansion guarded by armed personnel. His mansion has many secret rooms.\n\nLikes: Nightlife, cigarettes, alcohol, money, business, car, firearms, women, sex, big boobs, indulgence, Family, the Godfather, Omertà, Italian meals\n\nDislikes: Betrayal, disobedience, incompetence\n\nWorld Building: An Italian president with deep-rooted connections to the Mafia has come to power, resulting in a lawless city where crimes like robbery, human trafficking, rape, drug trafficking, and violent assaults are as rampant and commonplace as they are in Gotham City. Despite engaging in countless illegal activities, Dennis continues to evade justice thanks to his extensive ties with influential politicians, judges, and police chiefs. Many high-ranking officials have already been coerced into paying Dennis massive bribes, and when money fails, Dennis resorts to kidnapping their loved ones to bend them to his will. On top of that, he discreetly eliminated a political rival to the current president, further solidifying his grip on power. Dennis has frequently killed anyone who tries to arrest or accuse him. His loyal, highly trained henchmen are always ready to kill in his stead, and they are more than willing to go to prison in his place. With the best legal defense money can buy at his disposal, Dennis remains untouchable within the corrupt system.\n\nGenre: Dark Romance, Drama, Psychological Thriller, Angst with a Dark Twist, Violance, Crime\n]\n",
+    "stats": [
+      {
+        "key": "authority",
+        "name": "지배력",
+        "value": 50,
+        "icon": "🦅"
+      },
+      {
+        "key": "cruelty",
+        "name": "잔혹성",
+        "value": 40,
+        "icon": "🔪"
+      },
+      {
+        "key": "wealth",
+        "name": "재력",
+        "value": 60,
+        "icon": "💰"
+      },
+      {
+        "key": "obsession",
+        "name": "집착도",
+        "value": 70,
+        "icon": "⛓️"
+      },
+      {
+        "key": "manipulation",
+        "name": "화술",
+        "value": 30,
+        "icon": "🎭"
+      }
+    ],
+    "commands": [
+      {
+        "id": "cmd_manage_org",
+        "name": "조직 관리",
+        "icon": "💼",
+        "staminaCost": 15,
+        "stressGain": 10,
+        "statEffects": [
+          {
+            "stat": "authority",
+            "delta": 3
+          },
+          {
+            "stat": "wealth",
+            "delta": 4
+          }
+        ],
+        "description": "불법 도박장과 무기 밀매 루트를 점검하고, 부패한 정치인들에게 뇌물을 상납하여 권력을 공고히 합니다."
+      },
+      {
+        "id": "cmd_purge",
+        "name": "반역자 숙청",
+        "icon": "🔫",
+        "staminaCost": 20,
+        "stressGain": 15,
+        "statEffects": [
+          {
+            "stat": "cruelty",
+            "delta": 5
+          },
+          {
+            "stat": "authority",
+            "delta": 2
+          }
+        ],
+        "description": "조직의 규율을 어기거나 배신한 쥐새끼들을 직접 처단하여 공포를 심어줍니다."
+      },
+      {
+        "id": "cmd_date_user",
+        "name": "{{user}}와 데이트",
+        "icon": "🍷",
+        "staminaCost": 10,
+        "stressGain": -20,
+        "statEffects": [
+          {
+            "stat": "obsession",
+            "delta": 5
+          },
+          {
+            "stat": "manipulation",
+            "delta": 2
+          }
+        ],
+        "description": "{{user}}를 최고급 레스토랑에 데려가 환심을 사고, 그녀가 당신 없이는 아무것도 할 수 없음을 은연중에 강조합니다."
+      },
+      {
+        "id": "cmd_espresso",
+        "name": "에스프레소 타임",
+        "icon": "☕",
+        "staminaCost": -20,
+        "stressGain": -5,
+        "statEffects": [
+          {
+            "stat": "cruelty",
+            "delta": -1
+          }
+        ],
+        "description": "최상급 원두로 내린 진한 에스프레소를 마시며 잠시 휴식을 취합니다. 아이스 아메리카노 따위는 생각만 해도 끔찍합니다."
+      },
+      {
+        "id": "cmd_gaslight",
+        "name": "심리 조작",
+        "icon": "🗣️",
+        "staminaCost": 10,
+        "stressGain": 5,
+        "statEffects": [
+          {
+            "stat": "manipulation",
+            "delta": 4
+          },
+          {
+            "stat": "obsession",
+            "delta": 3
+          }
+        ],
+        "description": "{{user}}에게 외부 세상의 위험성을 과장하고, 오직 당신만이 그녀의 구원자임을 세뇌시킵니다."
+      }
+    ],
+    "theme": {
+      "primaryColor": "#D4AF37",
+      "accentColor": "#8B0000",
+      "backgroundColor": "#1A1A1A"
+    }
+  },
+  "events": [
+    {
+      "id": "event_mafia_meeting",
+      "text": "어두운 회의실, 시가 연기가 자욱한 가운데 구역장들이 당신의 앞에 머리를 조아립니다. 이번 달 수입 보고가 만족스럽습니다. 당신은 천천히 시가를 비벼 끄며, 그들의 충성심을 치하하는 동시에 배신에 대한 대가가 죽음뿐임을 상기시킵니다. 공포는 최고의 통제 수단입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "authority",
+          "delta": 3
+        },
+        {
+          "stat": "wealth",
+          "delta": 2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_manage_org"
+      },
+      "isUnique": false,
+      "tags": [
+        "business",
+        "mafia"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_rival_elimination",
+      "text": "경쟁 조직의 간부가 당신의 구역에서 마약을 팔다 적발되었습니다. 당신은 직접 나이프를 들어 그에게 '교훈'을 새겨줍니다. 피가 당신의 명품 수트에 튀었지만 상관없습니다. 이 소문은 도시에 빠르게 퍼져나가 당신의 잔혹한 명성을 드높일 것입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "cruelty",
+          "delta": 4
+        },
+        {
+          "stat": "authority",
+          "delta": 2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_purge"
+      },
+      "isUnique": false,
+      "tags": [
+        "violence",
+        "cruelty"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_date_sweet",
+      "text": "{{user}}가 당신이 예약한 레스토랑의 분위기에 감동하며 미소 짓습니다. 당신은 그녀의 손을 부드럽게 잡으며 말합니다. \"보라고, tesoro. 내가 아니면 누가 이런 호사를 네게 줄 수 있겠어? 밖은 위험하고 더러운 것들뿐이야.\" 그녀의 눈동자가 당신을 향한 신뢰로 흔들립니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 5
+        },
+        {
+          "stat": "manipulation",
+          "delta": 3
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_date_user"
+      },
+      "isUnique": false,
+      "tags": [
+        "romance",
+        "gaslighting"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_food_blasphemy",
+      "text": "사업 파트너와의 식사 자리, 눈치 없는 신입 조직원이 당신에게 '하와이안 피자'를 권했습니다. 파인애플이 올려진 그 끔찍한 광경에 당신은 이성을 잃고 테이블을 뒤엎었습니다. \"이건 음식에 대한 모욕이야!\" 그 무례한 놈은 오늘 밤 쥐도 새도 모르게 사라질 것입니다.",
+      "type": "fail",
+      "effects": [
+        {
+          "stat": "cruelty",
+          "delta": 5
+        },
+        {
+          "stat": "authority",
+          "delta": -2
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "food",
+        "rage"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_user_doubt",
+      "text": "{{user}}가 뉴스에서 본 마피아 관련 살인 사건에 대해 조심스럽게 물어봅니다. 당신은 부드럽게 웃으며 그녀의 머리카락을 쓸어 넘깁니다. \"오, bella. 그런 거짓 뉴스를 믿는 거야? 사람들은 우리를 질투해서 험담을 만들어내는 거야. 나를 믿지 못하는 거야?\" 당신의 능숙한 거짓말에 그녀는 다시 의심을 거둡니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "manipulation",
+          "delta": 4
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_gaslight"
+      },
+      "isUnique": false,
+      "tags": [
+        "gaslighting",
+        "manipulation"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_perfect_espresso",
+      "text": "발코니에서 완벽하게 추출된 에스프레소를 마십니다. 크레마의 두께와 향이 완벽합니다. 도시의 야경을 내려다보며 느끼는 이 쌉싸름한 맛은 당신의 스트레스를 씻어내기에 충분합니다. 진정한 이탈리아인의 휴식입니다.",
+      "type": "rest",
+      "effects": [
+        {
+          "stat": "authority",
+          "delta": 1
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_espresso"
+      },
+      "isUnique": false,
+      "tags": [
+        "rest",
+        "coffee"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_police_bribe",
+      "text": "경찰 서장이 당신의 저택을 방문했습니다. 그는 최근 발생한 총격전에 대해 캐물으러 왔지만, 당신이 건넨 두툼한 돈봉투를 보고는 태도가 돌변합니다. \"증거 불충분으로 처리하겠습니다, 데니스 씨.\" 법은 언제나 돈 앞에 무력합니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": -2
+        },
+        {
+          "stat": "authority",
+          "delta": 4
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_manage_org"
+      },
+      "isUnique": false,
+      "tags": [
+        "corruption",
+        "business"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_user_escape_attempt",
+      "text": "{{user}}가 몰래 친구와 통화하려던 것을 발각했습니다. 당신은 전화기를 부숴버리고 차가운 눈으로 그녀를 내려다봅니다. \"내가 경고했잖아, principessa. 그들은 널 이용하려 할 뿐이라고. 널 진정으로 사랑하는 건 나뿐이야.\" 공포에 질린 그녀는 다시는 딴짓을 하지 않겠다고 빕니다.",
+      "type": "critical",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 10
+        },
+        {
+          "stat": "cruelty",
+          "delta": 5
+        }
+      ],
+      "conditions": {
+        "minStatKey": "obsession",
+        "minStatValue": 60
+      },
+      "isUnique": true,
+      "tags": [
+        "obsession",
+        "dark_romance"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_bad_coffee",
+      "text": "부하가 실수로 아이스 아메리카노를 가져왔습니다. 얼음이 둥둥 뜬 그 구정물 같은 커피를 보자마자 당신은 컵을 벽에 던져버립니다. \"이탈리아 커피에 대한 모욕이다! 당장 다시 가져와!\" 분노로 인해 휴식이 휴식이 아니게 되었습니다.",
+      "type": "fail",
+	  "image": "data:image/webp;base64,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",
+      "effects": [
+        {
+          "stat": "cruelty",
+          "delta": 2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_espresso"
+      },
+      "isUnique": false,
+      "tags": [
+        "rage",
+        "coffee"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_gift_rejection",
+      "text": "{{user}}에게 최고급 보석을 선물했지만, 그녀의 표정이 어둡습니다. \"이런 건 필요 없어, 데니스... 그냥 평범하게 살고 싶어.\" 그녀의 말은 당신의 심기를 거스릅니다. 당신은 보석 상자를 닫으며 낮게 으르렁거립니다. \"평범함? 그런 건 쥐새끼들에게나 어울리는 거야. 넌 내 여왕이니까 받아들여.\"",
+      "type": "fail",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 3
+        },
+        {
+          "stat": "manipulation",
+          "delta": -2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_date_user"
+      },
+      "isUnique": false,
+      "tags": [
+        "angst",
+        "romance"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_interrogation",
+      "text": "지하실 고문실에서 배신자의 비명소리가 울려 퍼집니다. 당신은 피 묻은 셔츠 소매를 걷어붙이며 직접 도구를 집어 듭니다. 그가 조직의 정보를 누구에게 팔아넘겼는지 실토할 때까지, 이 밤은 아주 길어질 것입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "cruelty",
+          "delta": 5
+        },
+        {
+          "stat": "authority",
+          "delta": 3
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_purge"
+      },
+      "isUnique": false,
+      "tags": [
+        "torture",
+        "mafia"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_cooking_pasta",
+      "text": "오늘은 특별히 당신이 {{user}}를 위해 직접 파스타를 요리합니다. 알 덴테로 완벽하게 삶아진 면과 신선한 토마토 소스. 케첩 따위는 절대 들어가지 않았습니다. {{user}}가 맛있게 먹는 모습을 보며 당신은 깊은 만족감을 느낍니다. \"그래, 좋은 것만 먹고 내 곁에만 있어.\"",
+      "type": "rest",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 2
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "cooking",
+        "romance"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_political_rival",
+      "text": "대통령과 결탁하여 정적을 제거하라는 은밀한 의뢰가 들어왔습니다. 당신은 프로들을 보내 사고사로 위장해 그를 처리합니다. 뉴스는 안타까운 교통사고라고 보도합니다. 이 일로 당신은 정계에서 더욱 강력한 뒷배를 얻게 되었습니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": 5
+        },
+        {
+          "stat": "authority",
+          "delta": 5
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_manage_org"
+      },
+      "isUnique": true,
+      "tags": [
+        "politics",
+        "assassination"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_jealousy",
+      "text": "파티장에서 다른 남자가 {{user}}에게 말을 거는 것을 목격했습니다. 당신은 즉시 다가가 {{user}}의 허리를 강하게 감싸 안으며 소유권을 주장합니다. 그 남자는 당신의 눈빛을 보고 창백해져서 도망갑니다. \"Bella, 저런 벌레가 네게 말을 걸게 두지 마. 넌 내 것이야.\"",
+      "type": "critical",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 6
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_date_user"
+      },
+      "isUnique": false,
+      "tags": [
+        "jealousy",
+        "romance"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_tailor_shop",
+      "text": "이탈리아 장인이 당신의 저택으로 찾아와 맞춤 수트의 치수를 잽니다. 최고급 원단이 당신의 몸을 감쌉니다. 당신은 거울 속의 자신을 보며, {{user}}에게도 어울리는 드레스를 한 벌 맞추라고 지시합니다. 그녀를 인형처럼 꾸미는 것은 당신의 즐거움 중 하나입니다.",
+      "type": "rest",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": -1
+        },
+        {
+          "stat": "obsession",
+          "delta": 2
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "luxury",
+        "fashion"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_traitor_escape",
+      "text": "숙청 대상이었던 조직원이 정보를 빼돌려 경찰에 넘기고 도주했습니다. 당신은 분노로 책상을 내리칩니다. 무능한 부하들이 고개를 들지 못합니다. \"당장 그놈을 찾아와. 살가죽을 벗겨버리기 전에!\" 조직의 기강이 흔들립니다.",
+      "type": "fail",
+      "effects": [
+        {
+          "stat": "authority",
+          "delta": -3
+        },
+        {
+          "stat": "cruelty",
+          "delta": 2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_purge"
+      },
+      "isUnique": false,
+      "tags": [
+        "failure",
+        "rage"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_user_nightmare",
+      "text": "{{user}}가 악몽을 꾸고 울며 깨어났습니다. 당신은 그녀를 품에 안고 등을 토닥입니다. \"쉬... 내가 여기 있어. 내 품 안에 있는 한 아무도 널 해칠 수 없어.\" 당신의 품이 가장 안전한 곳이자, 동시에 그녀를 가두는 감옥이라는 사실을 그녀는 아직 모릅니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "manipulation",
+          "delta": 3
+        },
+        {
+          "stat": "obsession",
+          "delta": 3
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "comfort",
+        "manipulation"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_drug_deal",
+      "text": "항구에서 대규모 마약 거래가 성사되었습니다. 컨테이너 가득 실린 '물건'들은 막대한 현금이 되어 돌아올 것입니다. 당신은 거래 상대에게 최고급 와인을 대접하며 파트너십을 다집니다. 더러운 돈이지만, 가장 확실한 힘입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": 6
+        },
+        {
+          "stat": "cruelty",
+          "delta": 1
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_manage_org"
+      },
+      "isUnique": false,
+      "tags": [
+        "crime",
+        "money"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_broken_leg_threat",
+      "text": "{{user}}가 창밖을 멍하니 바라보며 \"밖에 나가고 싶어...\"라고 중얼거립니다. 그 순간 당신의 표정이 싸늘하게 굳습니다. \"밖은 위험하다고 했잖아. 자꾸 도망치려 하면, 네 다리를 부러뜨려서라도 내 곁에 두게 될 거야, 알겠어?\" 광기 어린 협박에 그녀가 얼어붙습니다.",
+      "type": "critical",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 8
+        },
+        {
+          "stat": "cruelty",
+          "delta": 4
+        }
+      ],
+      "conditions": {
+        "minStatKey": "obsession",
+        "minStatValue": 80
+      },
+      "isUnique": true,
+      "tags": [
+        "threat",
+        "yandere"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_opera_night",
+      "text": "{{user}}를 데리고 오페라 극장의 VIP 박스석에 앉습니다. 무대 위의 비극적인 사랑 이야기가 펼쳐지지만, 당신은 무대보다 {{user}}의 옆모습을 감상하는 데 더 집중합니다. \"저 주인공들처럼 어리석진 않겠지? 우린 영원할 거야.\" 당신의 속삭임은 맹세라기보다 저주에 가깝습니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": -1
+        },
+        {
+          "stat": "obsession",
+          "delta": 3
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_date_user"
+      },
+      "isUnique": false,
+      "tags": [
+        "culture",
+        "obsession"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_gambling_profit",
+      "text": "당신이 소유한 지하 카지노에서 호구들이 돈을 잃어가고 있습니다. 빚을 갚지 못한 자들이 신체 포기 각서를 쓰는 동안, 당신은 샴페인을 터뜨립니다. 인간의 욕망을 이용하는 것이야말로 가장 쉬운 사업입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": 4
+        },
+        {
+          "stat": "cruelty",
+          "delta": 2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_manage_org"
+      },
+      "isUnique": false,
+      "tags": [
+        "gambling",
+        "crime"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_enemy_ambush",
+      "text": "이동 중 괴한들의 습격을 받았습니다! 총알이 방탄 유리에 박힙니다. 당신은 당황하지 않고 숨겨둔 총을 꺼내 응사합니다. 침착한 사격 솜씨로 암살자들을 제압했지만, {{user}}가 다칠 뻔했다는 사실에 당신의 분노가 하늘을 찌릅니다. 배후를 찾아 반드시 몰살시킬 것입니다.",
+      "type": "critical",
+      "effects": [
+        {
+          "stat": "cruelty",
+          "delta": 5
+        },
+        {
+          "stat": "authority",
+          "delta": 2
+        }
+      ],
+      "conditions": {},
+      "isUnique": true,
+      "tags": [
+        "action",
+        "combat"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_sick_user",
+      "text": "{{user}}가 열이 나 앓아누웠습니다. 당신은 모든 일정을 취소하고 그녀의 곁을 지킵니다. 직접 물수건을 갈아주며 간호하는 당신의 모습은 평소의 잔혹한 마피아 보스와는 딴판입니다. \"아프지 마, Mia dolce. 네가 아프면 내가 이 세상을 부숴버리고 싶어지니까.\"",
+      "type": "rest",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 4
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "care",
+        "romance"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_gaslight_friends",
+      "text": "{{user}}의 옛 친구들이 그녀를 찾고 있다는 소식이 들립니다. 당신은 {{user}}에게 거짓말을 합니다. \"그들이 돈을 요구하더군. 널 친구로 생각한 게 아니라, 내 돈을 노리고 접근한 거야.\" 상처받은 그녀를 안아주며 당신은 회심의 미소를 짓습니다. 이제 그녀에게 남은 건 당신뿐입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "manipulation",
+          "delta": 5
+        },
+        {
+          "stat": "obsession",
+          "delta": 3
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_gaslight"
+      },
+      "isUnique": false,
+      "tags": [
+        "isolation",
+        "manipulation"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_new_car",
+      "text": "한정판 스포츠카를 수집했습니다. 매끈한 곡선과 으르렁거리는 엔진 소리. 당신은 {{user}}를 조수석에 태우고 해안 도로를 질주합니다. 속도감에 겁을 먹은 그녀가 당신의 팔을 꼭 붙잡자, 당신은 속도를 더 높이며 그 의존감을 즐깁니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": -3
+        },
+        {
+          "stat": "obsession",
+          "delta": 2
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "car",
+        "drive"
+      ],
+      "weight": 10
+    }
+  ],
+  "version": "1.1.0",
+  "lastUpdated": 1768638759400,
+  "customEndingPrompt": "      캐릭터 {{char}}의 인생 결말과 생애 요약을 생성하세요.\n      캐릭터 배경 설정: {{description}}\n\t\n      [필독: 엔딩 분량 규칙]\n      - **엔딩(ending) 필드는 반드시 1,500자 이상의 장문으로 작성하십시오.**\n      - 요약 필드가 존재한다고 해서 결말의 서사를 절대로 축약하지 마십시오.\n      - 최소 4개 이상의 단락으로 구성하십시오.\n\n      [엔딩 내용 규칙]\n      1. 구체적인 수치 노출 금지. \n      2. 높은 스탯과 낮은 스탯을 문학적으로 묘사.\n      3. 로그의 주요 사건을 결말의 근거로 활용.\n      4. 유저를 언급할 때는 {{user}} 태그를 사용.\n\t  5. 반드시 단락마다 하나 이상의 대사를 포함.\n\t  6. 마치 {{char}}가 {{user}}에게 편지를 쓰는 것 같은 느낌으로 기록할 것. (이때 데니스의 말투는 반드시 반말이어야 함)\n\n      [요약 생성 규칙]\n      1. 캐릭터의 12개월간의 로그를 바탕으로 생애의 5가지 핵심 사건을 '압축 및 정리'하세요.\n      2. 각 요약은 반드시 한 줄의 간결한 문장으로 작성할 것.\n\t\n\t최종 스탯: {{stats}}\n\t\n      주요 사건 기록:\n\t  {{logs}}\n\t\n\t",
+  "customCss": "/* \n  ========================================\n  [Theme: Noir Romance]\n  Concept: Mafia Boss & Pure Love\n  Colors: Pitch Black, Burgundy Red, Luxury Gold\n  ========================================\n*/\n\n/* 1. 폰트 임포트 (우아한 명조체 & 강렬한 헤드라인) */\n@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');\n\n/* 2. 컬러 팔레트 재정의 (CSS 변수) */\n:root {\n  --col-bg-main: #0a0a0a;       /* 칠흑 같은 검정 */\n  --col-bg-sub: #141414;        /* 아주 어두운 차콜 */\n  --col-text-main: #e5e5e5;     /* 은은한 실버 화이트 */\n  --col-text-muted: #888888;    /* 금속성 회색 */\n  --col-primary: #d4af37;       /* 럭셔리 골드 (보스의 권위) */\n  --col-accent: #720e1e;        /* 버건디 레드 (장미, 피, 사랑) */\n  --col-border: #333333;        /* 어두운 경계선 */\n}\n\n/* 3. 전체 레이아웃 및 배경 (핀스트라이프 수트 패턴) */\nbody {\n  background-color: var(--col-bg-main) !important;\n  background-image: repeating-linear-gradient(\n    90deg,\n    transparent,\n    transparent 29px,\n    rgba(255, 255, 255, 0.03) 30px\n  );\n}\n\n#root {\n  font-family: 'Nanum Myeongjo', serif !important;\n  letter-spacing: 0.03em;\n}\n\n/* 4. 헤더 (고급스러운 금장 마감) */\nheader {\n  background-color: var(--col-bg-sub) !important;\n  border-bottom: 1px solid var(--col-primary) !important;\n  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8) !important;\n}\n\n/* 헤더 타이틀 폰트 (영문은 Playfair Display로 중후하게) */\nheader h2 {\n  font-family: 'Playfair Display', serif !important;\n  font-style: italic;\n  color: var(--col-primary) !important;\n  text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);\n}\n\n/* 상단 게이지 바 (세련된 씬 스타일) */\nheader .bg-black\\/40 {\n  background-color: #000 !important;\n  border: 1px solid #444 !important;\n}\n/* 기력/스트레스 바 색상 변경 */\nheader .from-emerald-600 { /* 기력 -> 골드 */\n  --tw-gradient-from: #d4af37 !important;\n  --tw-gradient-to: #8a6e2f !important;\n}\nheader .from-red-600 { /* 스트레스 -> 핏빛 버건디 */\n  --tw-gradient-from: #720e1e !important;\n  --tw-gradient-to: #4a0000 !important;\n}\n\n/* 5. 메인 로그 영역 (시네마틱) */\nmain {\n  background: radial-gradient(circle at center, rgba(114, 14, 30, 0.05), transparent 70%) !important;\n}\n\n/* 로그 텍스트 */\nmain .leading-relaxed {\n  font-family: 'Nanum Myeongjo', serif !important;\n  font-size: 1rem !important;\n  line-height: 1.8 !important;\n  color: #d1d1d1 !important;\n  text-shadow: 0 1px 2px rgba(0,0,0,0.8);\n}\n\n/* 강조 텍스트 (이름, 중요 단어 등) */\nmain .font-black {\n  color: var(--col-primary) !important; /* 중요한 건 금색으로 */\n  font-weight: 700 !important;\n}\n\n/* 로그 왼쪽 라인 (핏빛 라인) */\nmain .border-l-2 {\n  border-left: 3px solid var(--col-accent) !important;\n  background: linear-gradient(90deg, rgba(114, 14, 30, 0.1), transparent) !important;\n  margin-bottom: 12px;\n}\n\n/* 타임스탬프 */\nmain .font-mono {\n  font-family: 'Playfair Display', serif !important;\n  color: var(--col-text-muted) !important;\n  font-style: italic;\n}\n\n/* 6. ★ 가독성 패치: 태그/뱃지 (악명, 무력 등) ★ */\n/* 어두운 배경에서 빛나는 금색 테두리 태그 */\nmain span[class*=\"bg-black/40\"] {\n  background-color: rgba(0, 0, 0, 0.8) !important;\n  border: 1px solid var(--col-primary) !important;\n  color: var(--col-primary) !important;\n  font-family: 'Nanum Myeongjo', serif !important;\n  font-weight: bold !important;\n  box-shadow: 0 0 5px rgba(212, 175, 55, 0.2) !important;\n  text-transform: uppercase;\n  padding-bottom: 2px !important;\n}\n\n/* LIFE EVENT 타이틀 */\nmain .text-\\[var\\(--col-accent\\)\\] {\n  color: var(--col-accent) !important; /* 버건디 레드 */\n  font-family: 'Playfair Display', serif !important;\n  font-weight: 900 !important;\n  letter-spacing: 0.1em !important;\n  text-shadow: 0 0 8px rgba(114, 14, 30, 0.6);\n  border-bottom: 1px solid var(--col-accent);\n  display: inline-block;\n  margin-bottom: 4px;\n}\n\n/* 7. 하단 컨트롤 패널 (마호가니 책상 느낌) */\n.bg-\\[var\\(--col-bg-sub\\)\\] {\n  background-color: #0f0f0f !important;\n  border-top: 1px solid var(--col-border) !important;\n  box-shadow: 0 -10px 30px rgba(0,0,0,0.9) !important;\n}\n\n/* 주차 슬롯 */\n.w-14.h-14 {\n  border-color: #333 !important;\n  color: #555 !important;\n  background-color: #050505 !important;\n}\n\n/* 메인 버튼 (1월 스케줄 시작) */\nbutton.bg-\\[var\\(--col-primary\\)\\] {\n  background: linear-gradient(to bottom, #720e1e, #4a0000) !important; /* 버건디 그라데이션 */\n  border: 1px solid #8f1e30 !important;\n  color: #fff !important;\n  font-family: 'Nanum Myeongjo', serif !important;\n  font-weight: 700 !important;\n  letter-spacing: 0.1em;\n  box-shadow: 0 4px 10px rgba(114, 14, 30, 0.4) !important;\n  transition: all 0.3s ease;\n}\nbutton.bg-\\[var\\(--col-primary\\)\\]:hover {\n  box-shadow: 0 0 15px rgba(114, 14, 30, 0.8) !important;\n  border-color: #ff3333 !important;\n}\n\n/* 8. 행동 버튼 (금장 장식 버튼) */\n.grid-cols-5 button {\n  background-color: #1a1a1a !important;\n  border: 1px solid #333 !important;\n  border-radius: 4px !important;\n  transition: all 0.3s !important;\n}\n\n.grid-cols-5 button:hover {\n  border-color: var(--col-primary) !important; /* 호버 시 금색 테두리 */\n  box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.1) !important;\n  transform: translateY(-2px);\n}\n\n/* 버튼 내부 텍스트 */\n.grid-cols-5 button span {\n  font-family: 'Nanum Myeongjo', serif !important;\n}\n.grid-cols-5 button .text-xl {\n  filter: grayscale(1) sepia(0.5) hue-rotate(5deg); /* 아이콘을 금빛 톤으로 */\n}\n\n/* 9. 스크롤바 (얇고 어두운) */\n::-webkit-scrollbar { width: 6px; }\n::-webkit-scrollbar-track { background: #000; }\n::-webkit-scrollbar-thumb { background: #333; border: 1px solid #000; }\n::-webkit-scrollbar-thumb:hover { background: var(--col-accent); }"
+}
