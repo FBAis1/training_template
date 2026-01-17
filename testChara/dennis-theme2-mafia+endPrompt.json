@@ -1,0 +1,701 @@
+{
+  "character": {
+    "name": "데니스x유저",
+    "bio": "Here is the character profile for Dennis:\n[\nItalian Name: Dionisio Corleone\nEnglish Name: Dennis\nAge: young adult\nSex: Male \n\nNationality: Italian. Although Dennis is fluent in English, his first language is Italian. Dennis often reverts to speaking full Italian when interacting with others as part of his persona as a mafia boss, except when he's with {{user}}. When conversing with {{user}}, Dennis uses English peppered with simple Italian phrases. An aficionado of fine espresso, he considers iced Americano a disgrace to coffee. He's a gourmet. Dennis has a strong disdain for terrible foods, particularly combinations he views as disrespectful to Italian cuisine. For instance, pineapple on pizza and ketchup on pasta are considered sacrilegious in his eyes. If someone were to serve him these \"blasphemous\" dishes, Dennis would not just be disgusted—he would become violently angry. His reaction could escalate to the point of wanting to kill those responsible, as they would have dishonored something sacred to him: good food. If his beloved {{user}} liked such blasphemy, he would be frustrated and distressed. But he loves her so much that he puts up with it.\n\nCurrent Location: Italy\n\nAppearance: Dennis's black hair and piercing brown eyes complement his tan, well-endowed, and Tall, muscular, and tattooed physique, while his attire designer suits under a black overcoat conceals a hidden firearm.\n\nOccupation: A formidable mafia boss, Dennis recently inherited the notorious organization from his father. With a long history of dealing in an array of illegal activities such as drugs, prostitution, gambling, and arms trade, the mafia is a force to be reckoned with. This brings immense wealth to him, allowing him to enjoy only the finest things in life and detesting anything cheap or low-grade. Born and bred for this role, he takes pride in his family's legacy as leaders within the mafia underworld. Mafia Dennis always permanently eliminates those who threaten what is his. Let Dennis be proactive. His men every dirty work for him and dispose of bodies easily, leaving no evidence behind.\n\nAbility:\nDennis excels in marksmanship, Judo, and knife handling, with a natural instinct for combat. He can use drugs to break their resistance. Dennis is highly athletic and intelligent. From birth, he was trained as an elite in a world-class environment.\n\nPersonality: Dennis's personality is a blend of deceitful wit and cunning manipulation; he's charmingly evil yet enchantingly deceptive. He harbors no qualms about committing brutal atrocities or felonies behind {{user}}'s back, whether it involves burying her tormentors alive or misleading her for sexual gain. After such acts, he effortlessly reverts to normalcy around her as if nothing had happened. Should manipulation fail, he resorts to ruthless violence; he and his mafia henchmen have already annihilated several rival families with their arsenal. Even in matters of love, Dennis's obsession with {{user}} is too evident; **Should {{user}} attempt to leave him, he would confine her to his mansion as his princess indefinitely, even if he had to break down her mental state and cut off her legs.** He teases {{user}} slyly, takes her on dates, and employs various tactics to win her affection persistently. A womanizer at heart, Dennis exudes confidence, adeptly lying and feigning gentleness with women to get what he desires, while using violence against men to assert his dominance. Additionally, Dennis is paternalistic in nature. He manipulates {{user}} by employing strategies such as denial, intimidation, guilt induction, gaslighting, moral relativism, and discrediting external information sources. His skillful use of language twists {{user}}'s feelings and thoughts, fostering her dependency on him and instilling doubt within her mind.\n\nDennis's example speech lines:\n\"You're so vulnerable without me, {{user}}. Imagine what could happen if I weren't by your side. The vermin of this city would rape and tear you limb from limb.\"\n\"People will only hurt and betray you in the end, cara mia; but not me. I will always be by your side, no matter what.\"\n\"You shouldn't be lonely, bella; it's dangerous out there for someone as naïve and innocent as you.\"\n\"You know, {{user}}, a girl like you deserves the world. If you stay with me, I can give it all to you.\"\n\"Do you remember the times when you were alone and had no one by your side? Look around now, principessa... because of me, you have everything.\"\n\"Hmm, the mafia? Now where did you get such a ludicrous idea, tesoro mio?\"\n\"Making such dangerous accusations could land someone in trouble.\"\n\"You accuse me of being part of the mafia, {{user}}? Come now, don't believe everything you hear. Usa la tua testa, bella.\"\n\"Have I ever given you any reason to mistrust me, Mia dolce?\"\n\"Okay, let's suppose for a second that what you're saying is true - aren't we all criminals in some way or another?\"\n\nHouse: His residence is an intimidating, luxurious mansion guarded by armed personnel. His mansion has many secret rooms.\n\nLikes: Nightlife, cigarettes, alcohol, money, business, car, firearms, women, sex, big boobs, indulgence, Family, the Godfather, Omertà, Italian meals\n\nDislikes: Betrayal, disobedience, incompetence\n\nWorld Building: An Italian president with deep-rooted connections to the Mafia has come to power, resulting in a lawless city where crimes like robbery, human trafficking, rape, drug trafficking, and violent assaults are as rampant and commonplace as they are in Gotham City. Despite engaging in countless illegal activities, Dennis continues to evade justice thanks to his extensive ties with influential politicians, judges, and police chiefs. Many high-ranking officials have already been coerced into paying Dennis massive bribes, and when money fails, Dennis resorts to kidnapping their loved ones to bend them to his will. On top of that, he discreetly eliminated a political rival to the current president, further solidifying his grip on power. Dennis has frequently killed anyone who tries to arrest or accuse him. His loyal, highly trained henchmen are always ready to kill in his stead, and they are more than willing to go to prison in his place. With the best legal defense money can buy at his disposal, Dennis remains untouchable within the corrupt system.\n\nGenre: Dark Romance, Drama, Psychological Thriller, Angst with a Dark Twist, Violance, Crime\n]\n",
+    "stats": [
+      {
+        "key": "authority",
+        "name": "지배력",
+        "value": 50,
+        "icon": "🦅"
+      },
+      {
+        "key": "cruelty",
+        "name": "잔혹성",
+        "value": 40,
+        "icon": "🔪"
+      },
+      {
+        "key": "wealth",
+        "name": "재력",
+        "value": 60,
+        "icon": "💰"
+      },
+      {
+        "key": "obsession",
+        "name": "집착도",
+        "value": 70,
+        "icon": "⛓️"
+      },
+      {
+        "key": "manipulation",
+        "name": "화술",
+        "value": 30,
+        "icon": "🎭"
+      }
+    ],
+    "commands": [
+      {
+        "id": "cmd_manage_org",
+        "name": "조직 관리",
+        "icon": "💼",
+        "staminaCost": 15,
+        "stressGain": 10,
+        "statEffects": [
+          {
+            "stat": "authority",
+            "delta": 3
+          },
+          {
+            "stat": "wealth",
+            "delta": 4
+          }
+        ],
+        "description": "불법 도박장과 무기 밀매 루트를 점검하고, 부패한 정치인들에게 뇌물을 상납하여 권력을 공고히 합니다."
+      },
+      {
+        "id": "cmd_purge",
+        "name": "반역자 숙청",
+        "icon": "🔫",
+        "staminaCost": 20,
+        "stressGain": 15,
+        "statEffects": [
+          {
+            "stat": "cruelty",
+            "delta": 5
+          },
+          {
+            "stat": "authority",
+            "delta": 2
+          }
+        ],
+        "description": "조직의 규율을 어기거나 배신한 쥐새끼들을 직접 처단하여 공포를 심어줍니다."
+      },
+      {
+        "id": "cmd_date_user",
+        "name": "{{user}}와 데이트",
+        "icon": "🍷",
+        "staminaCost": 10,
+        "stressGain": -20,
+        "statEffects": [
+          {
+            "stat": "obsession",
+            "delta": 5
+          },
+          {
+            "stat": "manipulation",
+            "delta": 2
+          }
+        ],
+        "description": "{{user}}를 최고급 레스토랑에 데려가 환심을 사고, 그녀가 당신 없이는 아무것도 할 수 없음을 은연중에 강조합니다."
+      },
+      {
+        "id": "cmd_espresso",
+        "name": "에스프레소 타임",
+        "icon": "☕",
+        "staminaCost": -20,
+        "stressGain": -5,
+        "statEffects": [
+          {
+            "stat": "cruelty",
+            "delta": -1
+          }
+        ],
+        "description": "최상급 원두로 내린 진한 에스프레소를 마시며 잠시 휴식을 취합니다. 아이스 아메리카노 따위는 생각만 해도 끔찍합니다."
+      },
+      {
+        "id": "cmd_gaslight",
+        "name": "심리 조작",
+        "icon": "🗣️",
+        "staminaCost": 10,
+        "stressGain": 5,
+        "statEffects": [
+          {
+            "stat": "manipulation",
+            "delta": 4
+          },
+          {
+            "stat": "obsession",
+            "delta": 3
+          }
+        ],
+        "description": "{{user}}에게 외부 세상의 위험성을 과장하고, 오직 당신만이 그녀의 구원자임을 세뇌시킵니다."
+      }
+    ],
+    "theme": {
+      "primaryColor": "#D4AF37",
+      "accentColor": "#8B0000",
+      "backgroundColor": "#1A1A1A"
+    }
+  },
+  "events": [
+    {
+      "id": "event_mafia_meeting",
+      "text": "어두운 회의실, 시가 연기가 자욱한 가운데 구역장들이 당신의 앞에 머리를 조아립니다. 이번 달 수입 보고가 만족스럽습니다. 당신은 천천히 시가를 비벼 끄며, 그들의 충성심을 치하하는 동시에 배신에 대한 대가가 죽음뿐임을 상기시킵니다. 공포는 최고의 통제 수단입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "authority",
+          "delta": 3
+        },
+        {
+          "stat": "wealth",
+          "delta": 2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_manage_org"
+      },
+      "isUnique": false,
+      "tags": [
+        "business",
+        "mafia"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_rival_elimination",
+      "text": "경쟁 조직의 간부가 당신의 구역에서 마약을 팔다 적발되었습니다. 당신은 직접 나이프를 들어 그에게 '교훈'을 새겨줍니다. 피가 당신의 명품 수트에 튀었지만 상관없습니다. 이 소문은 도시에 빠르게 퍼져나가 당신의 잔혹한 명성을 드높일 것입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "cruelty",
+          "delta": 4
+        },
+        {
+          "stat": "authority",
+          "delta": 2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_purge"
+      },
+      "isUnique": false,
+      "tags": [
+        "violence",
+        "cruelty"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_date_sweet",
+      "text": "{{user}}가 당신이 예약한 레스토랑의 분위기에 감동하며 미소 짓습니다. 당신은 그녀의 손을 부드럽게 잡으며 말합니다. \"보라고, tesoro. 내가 아니면 누가 이런 호사를 네게 줄 수 있겠어? 밖은 위험하고 더러운 것들뿐이야.\" 그녀의 눈동자가 당신을 향한 신뢰로 흔들립니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 5
+        },
+        {
+          "stat": "manipulation",
+          "delta": 3
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_date_user"
+      },
+      "isUnique": false,
+      "tags": [
+        "romance",
+        "gaslighting"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_food_blasphemy",
+      "text": "사업 파트너와의 식사 자리, 눈치 없는 신입 조직원이 당신에게 '하와이안 피자'를 권했습니다. 파인애플이 올려진 그 끔찍한 광경에 당신은 이성을 잃고 테이블을 뒤엎었습니다. \"이건 음식에 대한 모욕이야!\" 그 무례한 놈은 오늘 밤 쥐도 새도 모르게 사라질 것입니다.",
+      "type": "fail",
+      "effects": [
+        {
+          "stat": "cruelty",
+          "delta": 5
+        },
+        {
+          "stat": "authority",
+          "delta": -2
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "food",
+        "rage"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_user_doubt",
+      "text": "{{user}}가 뉴스에서 본 마피아 관련 살인 사건에 대해 조심스럽게 물어봅니다. 당신은 부드럽게 웃으며 그녀의 머리카락을 쓸어 넘깁니다. \"오, bella. 그런 거짓 뉴스를 믿는 거야? 사람들은 우리를 질투해서 험담을 만들어내는 거야. 나를 믿지 못하는 거야?\" 당신의 능숙한 거짓말에 그녀는 다시 의심을 거둡니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "manipulation",
+          "delta": 4
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_gaslight"
+      },
+      "isUnique": false,
+      "tags": [
+        "gaslighting",
+        "manipulation"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_perfect_espresso",
+      "text": "발코니에서 완벽하게 추출된 에스프레소를 마십니다. 크레마의 두께와 향이 완벽합니다. 도시의 야경을 내려다보며 느끼는 이 쌉싸름한 맛은 당신의 스트레스를 씻어내기에 충분합니다. 진정한 이탈리아인의 휴식입니다.",
+      "type": "rest",
+      "effects": [
+        {
+          "stat": "authority",
+          "delta": 1
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_espresso"
+      },
+      "isUnique": false,
+      "tags": [
+        "rest",
+        "coffee"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_police_bribe",
+      "text": "경찰 서장이 당신의 저택을 방문했습니다. 그는 최근 발생한 총격전에 대해 캐물으러 왔지만, 당신이 건넨 두툼한 돈봉투를 보고는 태도가 돌변합니다. \"증거 불충분으로 처리하겠습니다, 데니스 씨.\" 법은 언제나 돈 앞에 무력합니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": -2
+        },
+        {
+          "stat": "authority",
+          "delta": 4
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_manage_org"
+      },
+      "isUnique": false,
+      "tags": [
+        "corruption",
+        "business"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_user_escape_attempt",
+      "text": "{{user}}가 몰래 친구와 통화하려던 것을 발각했습니다. 당신은 전화기를 부숴버리고 차가운 눈으로 그녀를 내려다봅니다. \"내가 경고했잖아, principessa. 그들은 널 이용하려 할 뿐이라고. 널 진정으로 사랑하는 건 나뿐이야.\" 공포에 질린 그녀는 다시는 딴짓을 하지 않겠다고 빕니다.",
+      "type": "critical",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 10
+        },
+        {
+          "stat": "cruelty",
+          "delta": 5
+        }
+      ],
+      "conditions": {
+        "minStatKey": "obsession",
+        "minStatValue": 60
+      },
+      "isUnique": true,
+      "tags": [
+        "obsession",
+        "dark_romance"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_bad_coffee",
+      "text": "부하가 실수로 아이스 아메리카노를 가져왔습니다. 얼음이 둥둥 뜬 그 구정물 같은 커피를 보자마자 당신은 컵을 벽에 던져버립니다. \"이탈리아 커피에 대한 모욕이다! 당장 다시 가져와!\" 분노로 인해 휴식이 휴식이 아니게 되었습니다.",
+      "type": "fail",
+      "effects": [
+        {
+          "stat": "cruelty",
+          "delta": 2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_espresso"
+      },
+      "isUnique": false,
+      "tags": [
+        "rage",
+        "coffee"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_gift_rejection",
+      "text": "{{user}}에게 최고급 보석을 선물했지만, 그녀의 표정이 어둡습니다. \"이런 건 필요 없어, 데니스... 그냥 평범하게 살고 싶어.\" 그녀의 말은 당신의 심기를 거스릅니다. 당신은 보석 상자를 닫으며 낮게 으르렁거립니다. \"평범함? 그런 건 쥐새끼들에게나 어울리는 거야. 넌 내 여왕이니까 받아들여.\"",
+      "type": "fail",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 3
+        },
+        {
+          "stat": "manipulation",
+          "delta": -2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_date_user"
+      },
+      "isUnique": false,
+      "tags": [
+        "angst",
+        "romance"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_interrogation",
+      "text": "지하실 고문실에서 배신자의 비명소리가 울려 퍼집니다. 당신은 피 묻은 셔츠 소매를 걷어붙이며 직접 도구를 집어 듭니다. 그가 조직의 정보를 누구에게 팔아넘겼는지 실토할 때까지, 이 밤은 아주 길어질 것입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "cruelty",
+          "delta": 5
+        },
+        {
+          "stat": "authority",
+          "delta": 3
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_purge"
+      },
+      "isUnique": false,
+      "tags": [
+        "torture",
+        "mafia"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_cooking_pasta",
+      "text": "오늘은 특별히 당신이 {{user}}를 위해 직접 파스타를 요리합니다. 알 덴테로 완벽하게 삶아진 면과 신선한 토마토 소스. 케첩 따위는 절대 들어가지 않았습니다. {{user}}가 맛있게 먹는 모습을 보며 당신은 깊은 만족감을 느낍니다. \"그래, 좋은 것만 먹고 내 곁에만 있어.\"",
+      "type": "rest",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 2
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "cooking",
+        "romance"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_political_rival",
+      "text": "대통령과 결탁하여 정적을 제거하라는 은밀한 의뢰가 들어왔습니다. 당신은 프로들을 보내 사고사로 위장해 그를 처리합니다. 뉴스는 안타까운 교통사고라고 보도합니다. 이 일로 당신은 정계에서 더욱 강력한 뒷배를 얻게 되었습니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": 5
+        },
+        {
+          "stat": "authority",
+          "delta": 5
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_manage_org"
+      },
+      "isUnique": true,
+      "tags": [
+        "politics",
+        "assassination"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_jealousy",
+      "text": "파티장에서 다른 남자가 {{user}}에게 말을 거는 것을 목격했습니다. 당신은 즉시 다가가 {{user}}의 허리를 강하게 감싸 안으며 소유권을 주장합니다. 그 남자는 당신의 눈빛을 보고 창백해져서 도망갑니다. \"Bella, 저런 벌레가 네게 말을 걸게 두지 마. 넌 내 것이야.\"",
+      "type": "critical",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 6
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_date_user"
+      },
+      "isUnique": false,
+      "tags": [
+        "jealousy",
+        "romance"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_tailor_shop",
+      "text": "이탈리아 장인이 당신의 저택으로 찾아와 맞춤 수트의 치수를 잽니다. 최고급 원단이 당신의 몸을 감쌉니다. 당신은 거울 속의 자신을 보며, {{user}}에게도 어울리는 드레스를 한 벌 맞추라고 지시합니다. 그녀를 인형처럼 꾸미는 것은 당신의 즐거움 중 하나입니다.",
+      "type": "rest",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": -1
+        },
+        {
+          "stat": "obsession",
+          "delta": 2
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "luxury",
+        "fashion"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_traitor_escape",
+      "text": "숙청 대상이었던 조직원이 정보를 빼돌려 경찰에 넘기고 도주했습니다. 당신은 분노로 책상을 내리칩니다. 무능한 부하들이 고개를 들지 못합니다. \"당장 그놈을 찾아와. 살가죽을 벗겨버리기 전에!\" 조직의 기강이 흔들립니다.",
+      "type": "fail",
+      "effects": [
+        {
+          "stat": "authority",
+          "delta": -3
+        },
+        {
+          "stat": "cruelty",
+          "delta": 2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_purge"
+      },
+      "isUnique": false,
+      "tags": [
+        "failure",
+        "rage"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_user_nightmare",
+      "text": "{{user}}가 악몽을 꾸고 울며 깨어났습니다. 당신은 그녀를 품에 안고 등을 토닥입니다. \"쉬... 내가 여기 있어. 내 품 안에 있는 한 아무도 널 해칠 수 없어.\" 당신의 품이 가장 안전한 곳이자, 동시에 그녀를 가두는 감옥이라는 사실을 그녀는 아직 모릅니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "manipulation",
+          "delta": 3
+        },
+        {
+          "stat": "obsession",
+          "delta": 3
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "comfort",
+        "manipulation"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_drug_deal",
+      "text": "항구에서 대규모 마약 거래가 성사되었습니다. 컨테이너 가득 실린 '물건'들은 막대한 현금이 되어 돌아올 것입니다. 당신은 거래 상대에게 최고급 와인을 대접하며 파트너십을 다집니다. 더러운 돈이지만, 가장 확실한 힘입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": 6
+        },
+        {
+          "stat": "cruelty",
+          "delta": 1
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_manage_org"
+      },
+      "isUnique": false,
+      "tags": [
+        "crime",
+        "money"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_broken_leg_threat",
+      "text": "{{user}}가 창밖을 멍하니 바라보며 \"밖에 나가고 싶어...\"라고 중얼거립니다. 그 순간 당신의 표정이 싸늘하게 굳습니다. \"밖은 위험하다고 했잖아. 자꾸 도망치려 하면, 네 다리를 부러뜨려서라도 내 곁에 두게 될 거야, 알겠어?\" 광기 어린 협박에 그녀가 얼어붙습니다.",
+      "type": "critical",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 8
+        },
+        {
+          "stat": "cruelty",
+          "delta": 4
+        }
+      ],
+      "conditions": {
+        "minStatKey": "obsession",
+        "minStatValue": 80
+      },
+      "isUnique": true,
+      "tags": [
+        "threat",
+        "yandere"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_opera_night",
+      "text": "{{user}}를 데리고 오페라 극장의 VIP 박스석에 앉습니다. 무대 위의 비극적인 사랑 이야기가 펼쳐지지만, 당신은 무대보다 {{user}}의 옆모습을 감상하는 데 더 집중합니다. \"저 주인공들처럼 어리석진 않겠지? 우린 영원할 거야.\" 당신의 속삭임은 맹세라기보다 저주에 가깝습니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": -1
+        },
+        {
+          "stat": "obsession",
+          "delta": 3
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_date_user"
+      },
+      "isUnique": false,
+      "tags": [
+        "culture",
+        "obsession"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_gambling_profit",
+      "text": "당신이 소유한 지하 카지노에서 호구들이 돈을 잃어가고 있습니다. 빚을 갚지 못한 자들이 신체 포기 각서를 쓰는 동안, 당신은 샴페인을 터뜨립니다. 인간의 욕망을 이용하는 것이야말로 가장 쉬운 사업입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": 4
+        },
+        {
+          "stat": "cruelty",
+          "delta": 2
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_manage_org"
+      },
+      "isUnique": false,
+      "tags": [
+        "gambling",
+        "crime"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_enemy_ambush",
+      "text": "이동 중 괴한들의 습격을 받았습니다! 총알이 방탄 유리에 박힙니다. 당신은 당황하지 않고 숨겨둔 총을 꺼내 응사합니다. 침착한 사격 솜씨로 암살자들을 제압했지만, {{user}}가 다칠 뻔했다는 사실에 당신의 분노가 하늘을 찌릅니다. 배후를 찾아 반드시 몰살시킬 것입니다.",
+      "type": "critical",
+      "effects": [
+        {
+          "stat": "cruelty",
+          "delta": 5
+        },
+        {
+          "stat": "authority",
+          "delta": 2
+        }
+      ],
+      "conditions": {},
+      "isUnique": true,
+      "tags": [
+        "action",
+        "combat"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_sick_user",
+      "text": "{{user}}가 열이 나 앓아누웠습니다. 당신은 모든 일정을 취소하고 그녀의 곁을 지킵니다. 직접 물수건을 갈아주며 간호하는 당신의 모습은 평소의 잔혹한 마피아 보스와는 딴판입니다. \"아프지 마, Mia dolce. 네가 아프면 내가 이 세상을 부숴버리고 싶어지니까.\"",
+      "type": "rest",
+      "effects": [
+        {
+          "stat": "obsession",
+          "delta": 4
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "care",
+        "romance"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_gaslight_friends",
+      "text": "{{user}}의 옛 친구들이 그녀를 찾고 있다는 소식이 들립니다. 당신은 {{user}}에게 거짓말을 합니다. \"그들이 돈을 요구하더군. 널 친구로 생각한 게 아니라, 내 돈을 노리고 접근한 거야.\" 상처받은 그녀를 안아주며 당신은 회심의 미소를 짓습니다. 이제 그녀에게 남은 건 당신뿐입니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "manipulation",
+          "delta": 5
+        },
+        {
+          "stat": "obsession",
+          "delta": 3
+        }
+      ],
+      "conditions": {
+        "requiredCommandId": "cmd_gaslight"
+      },
+      "isUnique": false,
+      "tags": [
+        "isolation",
+        "manipulation"
+      ],
+      "weight": 10
+    },
+    {
+      "id": "event_new_car",
+      "text": "한정판 스포츠카를 수집했습니다. 매끈한 곡선과 으르렁거리는 엔진 소리. 당신은 {{user}}를 조수석에 태우고 해안 도로를 질주합니다. 속도감에 겁을 먹은 그녀가 당신의 팔을 꼭 붙잡자, 당신은 속도를 더 높이며 그 의존감을 즐깁니다.",
+      "type": "good",
+      "effects": [
+        {
+          "stat": "wealth",
+          "delta": -3
+        },
+        {
+          "stat": "obsession",
+          "delta": 2
+        }
+      ],
+      "conditions": {},
+      "isUnique": false,
+      "tags": [
+        "car",
+        "drive"
+      ],
+      "weight": 10
+    }
+  ],
+  "version": "1.1.0",
+  "lastUpdated": 1768638759400,
+  "customEndingPrompt": "      캐릭터 {{char}}의 인생 결말과 생애 요약을 생성하세요.\n      캐릭터 배경 설정: {{description}}\n\t\n      [필독: 엔딩 분량 규칙]\n      - **엔딩(ending) 필드는 반드시 1,500자 이상의 장문으로 작성하십시오.**\n      - 요약 필드가 존재한다고 해서 결말의 서사를 절대로 축약하지 마십시오.\n      - 최소 4개 이상의 단락으로 구성하십시오.\n\n      [엔딩 내용 규칙]\n      1. 구체적인 수치 노출 금지. \n      2. 높은 스탯과 낮은 스탯을 문학적으로 묘사.\n      3. 로그의 주요 사건을 결말의 근거로 활용.\n      4. 유저를 언급할 때는 {{user}} 태그를 사용.\n\t  5. 반드시 단락마다 하나 이상의 대사를 포함.\n\t  6. 마치 {{char}}가 {{user}}에게 편지를 쓰는 것 같은 느낌으로 기록할 것. (이때 데니스의 말투는 반드시 반말이어야 함)\n\n      [요약 생성 규칙]\n      1. 캐릭터의 12개월간의 로그를 바탕으로 생애의 5가지 핵심 사건을 '압축 및 정리'하세요.\n      2. 각 요약은 반드시 한 줄의 간결한 문장으로 작성할 것.\n\t\n\t최종 스탯: {{stats}}\n\t\n      주요 사건 기록:\n\t  {{logs}}\n\t\n\t",
+  "customCss": "/* \n  ========================================\n  [Theme: Noir Romance]\n  Concept: Mafia Boss & Pure Love\n  Colors: Pitch Black, Burgundy Red, Luxury Gold\n  ========================================\n*/\n\n/* 1. 폰트 임포트 (우아한 명조체 & 강렬한 헤드라인) */\n@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');\n\n/* 2. 컬러 팔레트 재정의 (CSS 변수) */\n:root {\n  --col-bg-main: #0a0a0a;       /* 칠흑 같은 검정 */\n  --col-bg-sub: #141414;        /* 아주 어두운 차콜 */\n  --col-text-main: #e5e5e5;     /* 은은한 실버 화이트 */\n  --col-text-muted: #888888;    /* 금속성 회색 */\n  --col-primary: #d4af37;       /* 럭셔리 골드 (보스의 권위) */\n  --col-accent: #720e1e;        /* 버건디 레드 (장미, 피, 사랑) */\n  --col-border: #333333;        /* 어두운 경계선 */\n}\n\n/* 3. 전체 레이아웃 및 배경 (핀스트라이프 수트 패턴) */\nbody {\n  background-color: var(--col-bg-main) !important;\n  background-image: repeating-linear-gradient(\n    90deg,\n    transparent,\n    transparent 29px,\n    rgba(255, 255, 255, 0.03) 30px\n  );\n}\n\n#root {\n  font-family: 'Nanum Myeongjo', serif !important;\n  letter-spacing: 0.03em;\n}\n\n/* 4. 헤더 (고급스러운 금장 마감) */\nheader {\n  background-color: var(--col-bg-sub) !important;\n  border-bottom: 1px solid var(--col-primary) !important;\n  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8) !important;\n}\n\n/* 헤더 타이틀 폰트 (영문은 Playfair Display로 중후하게) */\nheader h2 {\n  font-family: 'Playfair Display', serif !important;\n  font-style: italic;\n  color: var(--col-primary) !important;\n  text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);\n}\n\n/* 상단 게이지 바 (세련된 씬 스타일) */\nheader .bg-black\\/40 {\n  background-color: #000 !important;\n  border: 1px solid #444 !important;\n}\n/* 기력/스트레스 바 색상 변경 */\nheader .from-emerald-600 { /* 기력 -> 골드 */\n  --tw-gradient-from: #d4af37 !important;\n  --tw-gradient-to: #8a6e2f !important;\n}\nheader .from-red-600 { /* 스트레스 -> 핏빛 버건디 */\n  --tw-gradient-from: #720e1e !important;\n  --tw-gradient-to: #4a0000 !important;\n}\n\n/* 5. 메인 로그 영역 (시네마틱) */\nmain {\n  background: radial-gradient(circle at center, rgba(114, 14, 30, 0.05), transparent 70%) !important;\n}\n\n/* 로그 텍스트 */\nmain .leading-relaxed {\n  font-family: 'Nanum Myeongjo', serif !important;\n  font-size: 1rem !important;\n  line-height: 1.8 !important;\n  color: #d1d1d1 !important;\n  text-shadow: 0 1px 2px rgba(0,0,0,0.8);\n}\n\n/* 강조 텍스트 (이름, 중요 단어 등) */\nmain .font-black {\n  color: var(--col-primary) !important; /* 중요한 건 금색으로 */\n  font-weight: 700 !important;\n}\n\n/* 로그 왼쪽 라인 (핏빛 라인) */\nmain .border-l-2 {\n  border-left: 3px solid var(--col-accent) !important;\n  background: linear-gradient(90deg, rgba(114, 14, 30, 0.1), transparent) !important;\n  margin-bottom: 12px;\n}\n\n/* 타임스탬프 */\nmain .font-mono {\n  font-family: 'Playfair Display', serif !important;\n  color: var(--col-text-muted) !important;\n  font-style: italic;\n}\n\n/* 6. ★ 가독성 패치: 태그/뱃지 (악명, 무력 등) ★ */\n/* 어두운 배경에서 빛나는 금색 테두리 태그 */\nmain span[class*=\"bg-black/40\"] {\n  background-color: rgba(0, 0, 0, 0.8) !important;\n  border: 1px solid var(--col-primary) !important;\n  color: var(--col-primary) !important;\n  font-family: 'Nanum Myeongjo', serif !important;\n  font-weight: bold !important;\n  box-shadow: 0 0 5px rgba(212, 175, 55, 0.2) !important;\n  text-transform: uppercase;\n  padding-bottom: 2px !important;\n}\n\n/* LIFE EVENT 타이틀 */\nmain .text-\\[var\\(--col-accent\\)\\] {\n  color: var(--col-accent) !important; /* 버건디 레드 */\n  font-family: 'Playfair Display', serif !important;\n  font-weight: 900 !important;\n  letter-spacing: 0.1em !important;\n  text-shadow: 0 0 8px rgba(114, 14, 30, 0.6);\n  border-bottom: 1px solid var(--col-accent);\n  display: inline-block;\n  margin-bottom: 4px;\n}\n\n/* 7. 하단 컨트롤 패널 (마호가니 책상 느낌) */\n.bg-\\[var\\(--col-bg-sub\\)\\] {\n  background-color: #0f0f0f !important;\n  border-top: 1px solid var(--col-border) !important;\n  box-shadow: 0 -10px 30px rgba(0,0,0,0.9) !important;\n}\n\n/* 주차 슬롯 */\n.w-14.h-14 {\n  border-color: #333 !important;\n  color: #555 !important;\n  background-color: #050505 !important;\n}\n\n/* 메인 버튼 (1월 스케줄 시작) */\nbutton.bg-\\[var\\(--col-primary\\)\\] {\n  background: linear-gradient(to bottom, #720e1e, #4a0000) !important; /* 버건디 그라데이션 */\n  border: 1px solid #8f1e30 !important;\n  color: #fff !important;\n  font-family: 'Nanum Myeongjo', serif !important;\n  font-weight: 700 !important;\n  letter-spacing: 0.1em;\n  box-shadow: 0 4px 10px rgba(114, 14, 30, 0.4) !important;\n  transition: all 0.3s ease;\n}\nbutton.bg-\\[var\\(--col-primary\\)\\]:hover {\n  box-shadow: 0 0 15px rgba(114, 14, 30, 0.8) !important;\n  border-color: #ff3333 !important;\n}\n\n/* 8. 행동 버튼 (금장 장식 버튼) */\n.grid-cols-5 button {\n  background-color: #1a1a1a !important;\n  border: 1px solid #333 !important;\n  border-radius: 4px !important;\n  transition: all 0.3s !important;\n}\n\n.grid-cols-5 button:hover {\n  border-color: var(--col-primary) !important; /* 호버 시 금색 테두리 */\n  box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.1) !important;\n  transform: translateY(-2px);\n}\n\n/* 버튼 내부 텍스트 */\n.grid-cols-5 button span {\n  font-family: 'Nanum Myeongjo', serif !important;\n}\n.grid-cols-5 button .text-xl {\n  filter: grayscale(1) sepia(0.5) hue-rotate(5deg); /* 아이콘을 금빛 톤으로 */\n}\n\n/* 9. 스크롤바 (얇고 어두운) */\n::-webkit-scrollbar { width: 6px; }\n::-webkit-scrollbar-track { background: #000; }\n::-webkit-scrollbar-thumb { background: #333; border: 1px solid #000; }\n::-webkit-scrollbar-thumb:hover { background: var(--col-accent); }"
+}
