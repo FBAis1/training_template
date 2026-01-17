@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+:root {
+  --col-bg-main: #062016;
+  --col-bg-sub: #0a2f1f;
+  --col-text-main: #ecfdf5;
+  --col-text-muted: #6ee7b7;
+  --col-primary: #10b981;
+  --col-accent: #fbbf24;
+  --col-border: #065f46;
+}
+body, button, input, textarea { 
+  font-family: 'Jua', sans-serif !important; 
+}
