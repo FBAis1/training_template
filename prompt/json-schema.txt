@@ -1,0 +1,85 @@
+
+1. 공통 스키마 (Event, Command)
+eventSchema (28~58행): 게임 이벤트 구조 정의 (id, text, type, tags, effects 등)
+commandSchema (60~82행): 행동 커맨드 구조 정의 (id, name, icon, staminaCost, stressGain, statEffects 등)
+2. 캐릭터 생성 스키마 (generateCharacter)
+위치: 133~167행
+구조:
+character: 이름, 배경, 테마(색상), 스탯(배열), 커맨드(배열)
+initialEvents: 초기 이벤트 배열 (eventSchema 사용)
+3. 엔딩 생성 스키마 (generateEnding)
+위치: 269~280행
+구조:
+ending: 문자열 (1,500자 이상의 결말)
+summary: 문자열 배열 (5가지 핵심 요약)
+
+
+
+
+
+
+
+  const responseSchema = {
+    type: Type.OBJECT,
+    properties: {
+      character: {
+        type: Type.OBJECT,
+        properties: {
+          name: { type: Type.STRING },
+          bio: { type: Type.STRING },
+          theme: {
+            type: Type.OBJECT,
+            properties: { primaryColor: { type: Type.STRING }, accentColor: { type: Type.STRING }, backgroundColor: { type: Type.STRING } },
+            required: ["primaryColor", "accentColor", "backgroundColor"]
+          },
+          stats: {
+            type: Type.ARRAY,
+            items: {
+              type: Type.OBJECT,
+              properties: { key: { type: Type.STRING }, name: { type: Type.STRING }, value: { type: Type.NUMBER }, icon: { type: Type.STRING, description: "단일 이모지 (예: 💪)" } },
+              required: ["key", "name", "value", "icon"]
+            }
+          },
+          commands: {
+            type: Type.ARRAY,
+            items: commandSchema
+          }
+        },
+        required: ["name", "bio", "stats", "commands", "theme"]
+      },
+      initialEvents: {
+        type: Type.ARRAY,
+        items: eventSchema
+      }
+    },
+    required: ["character", "initialEvents"]
+  };
+
+
+
+
+    const response = await withTimeout<GenerateContentResponse>(
+      ai.models.generateContent({
+        model: modelName,
+        contents: prompt,
+        config: {
+            responseMimeType: "application/json",
+            temperature: temperature,
+            responseSchema: {
+                type: Type.OBJECT,
+                properties: {
+                    ending: { type: Type.STRING, description: "1,500자 이상의 풍부한 인생 결말 서사 (Markdown 형식)" },
+                    summary: { 
+                        type: Type.ARRAY, 
+                        items: { type: Type.STRING },
+                        description: "생애의 5가지 핵심 사건 요약 목록"
+                    }
+                },
+                required: ["ending", "summary"]
+            }
+        }
+      }),
+      GEN_TIMEOUT_MS
+    );
+
+
