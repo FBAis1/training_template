@@ -1,9 +1,9 @@
 [
   {
-    "name": "아서왕",
-    "description": "성검의 선택을 받은 브리튼의 왕.",
+    "name": "데니스",
+    "description": "마피아 보스.",
     "author": "LifeStream",
-    "url": "https://raw.githubusercontent.com/FBAis1/life_def_test/refs/heads/main/chara/artoria.json" 
+    "url": "https://raw.githubusercontent.com/FBAis1/training_template/refs/heads/main/testChara/dennis.json" 
   },
   {
     "name": "김대리",
